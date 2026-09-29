@@ -1,0 +1,108 @@
+Tags- heading tag H1-H6...H1 is the bigger one
+
+
+
+Hr - Horizontal line
+
+
+
+Br - Line break
+
+
+
+List - Collection of data, values
+
+ordered
+
+unordered
+
+Description List 
+
+Nested List
+
+
+
+Li-List item 
+
+Ul- unordered list (Symbols-disc , square ,circle)
+
+Ol-Ordered list
+
+
+
+Description list
+
+Dt- Define the term
+
+Dd- define the definition
+
+
+
+Image tag Attributes
+
+Src-image source path
+
+Alt-is the image is not shown
+
+
+
+Tables
+
+Rows and columns
+
+Tr-TableRow
+
+TH-table Header
+
+Td-table data
+
+
+
+
+
+Anchor Tag-Navigation
+
+href-Hyper Text Reference
+
+
+
+<b>-bold
+
+<i>-italic
+
+<em>-emphasis
+
+<sup>-superscript
+
+<sub>-subscript
+
+<tt>-teletype
+
+select-Dropdown
+
+
+
+**Semantic tag**
+
+
+
+Semantic tag means using html tag that clearly describe the meaning and purpose of the content
+
+
+
+\&copy;-c  symbol
+
+
+
+Figure- 
+
+
+
+
+
+
+
+
+
+
+
