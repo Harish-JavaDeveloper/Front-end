@@ -1,0 +1,50 @@
+CSS-Caskading 
+
+Inline CSS: CSS written directly inside an HTML element using the style attribute.
+Internal CSS: CSS written inside the <style> tag in the same HTML file.
+External CSS-external ahh oru css file ahh create  panni import panarthuku
+
+Selectors-A CSS selector is used to select HTML elements that you want to style.
+
+Types
+Id Selector
+Class selector
+universe selector
+Group Selector
+Element Selector
+
+Flex
+ Blox inside the block. Default stack.
+Grid
+   Like flex but is allocated like grid 
+
+Postions:
+
+Position property controls how elements comes website and application.
+Value Static, relative, absolute, sticky, fixed
+Default.static 
+
+Relative- like  static and we need to give extra value 
+Value:top, left, right, bottom.
+
+Absolute - the elements removed normal document and relative to the nearest ansister.
+We need to mention relative in parent. because absolute can not be alone. It appears based on our decided position. 
+
+
+Fixed-  it should be top or bottom.  Top 0(examble nav ber)
+
+Sticky - it is the same as fixed but when the position is reached it will be fixed on site.
+
+Z-index: Z-index controls the stacking order of the overlapping positioned elements.
+Position always should be absolute or relative.
+OverFlow :
+Overflow :  overflow property controls what happens when contact larger than container.
+Value: visible, 
+Visible: Visible container allow visible the overflow the content 
+Hidden : Hidden it is showing only the content container size
+
+Scroll : Scroll it is showing overflow is happens or not it create the scroll 
+Auto : Auto when content is going to overflow display the scroll otherwise normal.
+
+
+
