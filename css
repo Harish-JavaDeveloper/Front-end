@@ -24,6 +24,7 @@ Position property controls how elements comes website and application.
 Value Static, relative, absolute, sticky, fixed
 Default.static 
 
+
 Relative- like  static and we need to give extra value 
 Value:top, left, right, bottom.
 
@@ -44,7 +45,18 @@ Visible: Visible container allow visible the overflow the content
 Hidden : Hidden it is showing only the content container size
 
 Scroll : Scroll it is showing overflow is happens or not it create the scroll 
-Auto : Auto when content is going to overflow display the scroll otherwise normal.
+Auto : Auto when content is going to overflow display the scroll otherwise normal.Float : float was used to layout where elemnts design each other
+Float:
+ Float : float was used to layout where elemnts design each other
+ properties : top, bottom, left, right
+flex box : it is css layout,design manily for arranging element 1 dimenton either row or column.
+ properties : defailt:row, flex direction: column
+             align-text:center this is for direction row, Flex-wrap: wrap; gap:10px; 
+pseudo elecment: it is used to style the specific element and specific part of html tag.
+         ::before,::after,::firstletter,::firstStyle,:: placeholders,::marker
+transitio:n: css transition create smooth transition changes beween two states.
+ property: transtion-property, transition-duration,
 
-
-
+transition timing functon:it is specify the speed of the effect
+ linear,ease, ease in,ease out,ease in out
+media query: 
