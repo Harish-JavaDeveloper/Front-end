@@ -1,0 +1,111 @@
+HTML: the structure of a page
+
+Learn these tags first:
+
+Page skeleton: <!DOCTYPE html>, <html>, <head>, <title>, <body>
+Text: <h1>-<h6> (headings), <p> (paragraph), <span>, <strong>, <em>, <br>
+Links and images: <a href="">, <img src="" alt="">
+Lists: <ul>, <ol>, <li>
+Containers: <div>, and the semantic ones <header>, <nav>, <main>, <section>, <footer>
+Tables: <table>, <tr>, <th>, <td>
+Forms: <form>, <input>, <label>, <button>, <select>, <textarea>
+Forms in detail: input types (email, password, checkbox, radio), required, placeholder
+Tables: colspan, rowspan
+        Attribute	Joins	Direction
+        colspan	    Columns	Left to right
+        rowspan	    Rows	Top to bottom
+Semantic HTML and accessibility: alt text, aria-label
+    Tag	                     Purpose
+    <header>	   Top of the page or section (logo, title)
+    <nav>	       Group of navigation links
+    <main>	       The main content (only one per page)
+    <section>	   A group of related content, usually with a heading
+    <article>      Content that makes sense on its own (blog post, news item)
+    <aside>        Side content (related links, ads)
+    <footer>	   Bottom of the page or section (copyright, contacts)
+    
+Media: <video>, <audio>, <iframe>
+
+CSS: the look of a page
+
+Learn these in order:
+
+Selectors: tag (p), class (.card), id (#menu), and combinations (div p)
+Text and colors: color, background-color, font-family, font-size
+Box model: margin, padding, border, width, height. This is the most important concept.
+Layout: Flexbox first (display: flex, justify-content, align-items), then Grid
+Responsive design: media queries (@media (max-width: 600px))
+
+
+Text properties :
+Property	            What it does	        Example
+font-weight	            Bold or thin	        bold, 400, 700
+font-style	            Italic	                italic
+text-align	A           lignment	            left, center, right, justify
+text-decoration	        Underline or 
+                        strike-through	        none, underline, line-through
+text-transform	        Change the case     	uppercase, lowercase, capitalize
+line-height         	Space between lines    	1.5
+letter-spacing	        Space between letters	2px
+word-spacing	        Space between words	    5px
+text-indent         	Indent the first line	30px
+text-shadow         	Shadow behind text	    2px 2px 4px gray
+white-space	            Control wrapping	    nowrap
+
+Color and background properties:
+
+Property	             What it does	             Example
+color	                 Text color	                  red
+background-color         Background color   	    #f0f0f0
+background-image         Background picture	        url("bg.jpg")
+background-size	         Image sizing	            cover
+background-repeat        Repeat the image or not	no-repeat
+border-color	         Border color	            blue
+opacity	                 Transparency	            0.5
+box-shadow	             Shadow around a box	    0 4px 8px rgba(0,0,0,0.2)
+
+Box model: margin, padding, border, width, height, box-sizing
+
+Fonts: font-family, font-size, Google Fonts, units (px, rem, %, vw)
+
+Display and position: display (block, inline, none), position (relative, absolute, fixed, sticky), z-index
+
+Flexbox: display: flex, flex-direction, justify-content, align-items, gap, flex-wrap
+
+Grid: display: grid, grid-template-columns, gap
+
+Pseudo-classes: :hover, :focus, :first-child, ::before, ::after
+
+Responsive design: media queries, max-width, mobile-first
+
+Transitions and animations: transition, transform, @keyframes
+
+CSS variables: --main-color, var(--main-color)
+
+What is the box model?
+
+In CSS, every HTML element is a rectangular box. The box has four layers, from inside to outside:
+
+Content: the text or image itself
+Padding: space between the content and the border (inside the box)
+Border: the line around the padding
+Margin: space between this box and other boxes (outside the box)
+
+Think of a photo frame:
+
+The photo is the content.
+The white space between the photo and the frame is the padding.
+The frame itself is the border.
+The gap between this frame and the next frame on the wall is the margin.
+
+width: 200px; sets the width of the content area only.
+padding: 20px; adds 20px of space on all four sides, inside the border.
+border: 5px solid navy; has three values: thickness, style (solid, dashed, dotted) and color.
+margin: 30px; adds 30px of space outside the border, which pushes other boxes away.
+
+.box {
+  padding: 10px 20px;             /* top-bottom 10px, left-right 20px */
+  margin: 10px 20px 30px 40px;    /* top, right, bottom, left (clockwise) */
+  margin-left: 50px;              /* only one side */
+  margin: 0 auto;                 /* centers a box that has a width */
+}
